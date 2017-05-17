@@ -1,9 +1,6 @@
 package com.murphysl.life;
 
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
-import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
@@ -14,7 +11,7 @@ import android.view.MenuItem;
 
 import com.murphysl.life.base.AppActivity;
 import com.murphysl.life.base.BaseFragment;
-import com.murphysl.life.function.detection_heartbeat.DetectionFragment;
+import com.murphysl.life.function.detection_heartbeat.DetectFragment;
 
 public class MainActivity extends AppActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -25,7 +22,7 @@ public class MainActivity extends AppActivity
 
     @Override
     protected BaseFragment getFirstFragment() {
-        return DetectionFragment.newInstance();
+        return DetectFragment.newInstance();
     }
 
     @Override

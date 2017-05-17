@@ -5,5 +5,19 @@
     <com.murphysl.life.view.AutoFitTextureView
         android:id="@+id/camera_view"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="400dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:text="avg"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="100px" />
+
+    <TextView
+        android:id="@+id/avg"
+        android:text="avg2"
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
 </LinearLayout>
